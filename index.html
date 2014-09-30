@@ -3,161 +3,150 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <title>MCC</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/animations.css">
+    <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
   </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+  <body ng-app>
+<!-- 
+    <header class="content-width">
+      <nav class="main-nav">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Contact</li>
+          </ul>
+      </nav>
+    </header> -->
+    <div class="big-wrap">
+
+      <div class="row home-wrap">
+        <div class="small-12 medium-8 large-10 columns">
+          <input type="text" class="home-input slideDown" placeholder="">
         </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
+        <div class="small-12 medium-3 large-2 columns"> 
+          <button class="home-go slideDown">Search</button>
+        </div>
+        <div class="medium-1 columns">
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+    <div class="big-wrap2" id="wrap2">
+      <div class="row">
+        <div class="small-12 columns">
+          <h4 class="home-2">Your <span class="oops">Search</span> Is Over.</h4>
+        </div>
+      </div>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <h4 class="header-one">Who are you?</h4>
+          <p class="text-one">My name is Martin Contreras. I am a full stack web developer from Providence, RI. I have a passion for creating unique and modern web experiences. Web development changes everyday and I intend to stay at the forefront of it all.</p>
+          <p class="text-one">Oh, and I like whiskey, traveling and Netflix.</p>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
+        <div class="small-12 large-6 columns">
+          <h4 class="header-one">What do you do?</h4>
+          <p class="text-one">I develop with a "mobile-first" mindset. The importance of being accessible through any device, on any browser cannot be stressed enough. I strive to make the front-end fully responsive along with a strong integrated back-end.</p>
+          <p class="text-one">I am always looking for new projects, so please get in touch if you would like to chat.</p>
         </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
+      </div>
+    </div>
+
+    <div class="big-wrap3" id="wrap3">
+      <div class="row">
+        <div class="small-12 medium-12 large-6 columns">
+            <div class="row">
+              <div class="small-12 medium-6 large-6 columns">
+                <h4 class="header-two">CSS</h4>
+                <p class="text-two">So you have a design in mind? Let's make it happen. Don't have one? No sweat let's talk it over and see what we can do.</p>
+                <ul class="list-one">
+                  <li>CSS3</li>
+                  <li>CSS3 Animations</li>
+                  <li>SASS</li>
+                  <li>SCSS</li>
+                  <li>Foundation</li>
+                  <li>Bootstrap</li>
+                  <li>Compass</li>
+                </ul>
               </div>
-            </div>
+              <div class="small-12 medium-6 large-6 columns">
+                <h4 class="header-two">HTML5</h4>
+                <p class="text-two">Using the latest technologies I can transform any idea into a production ready state. Just to name a few...</p>
+                <ul class="list-one">
+                  <li>Templating</li>
+                  <li>History</li>
+                  <li>Offine</li>
+                  <li>Navigator</li>
+                  <li>Web Sockets</li>
+                  <li>Canvas/SVG</li>
+                  <li>Scala</li>
+                </ul>
+              </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+        </div>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+        <div class="small-12 medium-12 large-6 columns">
+          <div class="row">
+            <div class="small-12 medium-6 large-6 columns">
+              <h4 class="header-two">Javascript</h4>
+              <p class="text-two">Let's work together to ensure your data is safe. Maybe an API hook is all that's needed, if not we'll make one.</p>
+              <ul class="list-one">
+                  <li>Angular</li>
+                  <li>jQuery</li>
+                  <li>jQuery UI</li>
+                  <li>D3 / visualization</li>
+                  <li>Vanilla JS</li>
+                  <li>AJAX</li>
+                  <li>MV* frameworks</li>
+                </ul>
+            </div>
+            <div class="small-12 medium-6 large-6 columns">
+              <h4 class="header-two">and more</h4>
+              <p class="text-two">From design to SEO and beyond, we will work together to finish your product.</p>
+              <ul class="list-one">
+                <li>RESTful Web Services</li>
+                <li>JSON</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Play Framework</li>
+                <li>MySQL/SQL</li>
+                <li>MVC architecture</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+   <div class="big-wrap4" id="wrap4">
+      <div class="row">
+        <div class="small-12 columns">
+          <form id="single-sign">
+            <input type="text" placeholder="First Name" required/>
+            <input type="text" placeholder="Last Name" required/>
+            <input type="text" placeholder="Phone Number"/>
+            <input type="email" placeholder="Email" required/>
+            <button class="contact-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="last-note">Unless otherwise stated all work and ideas</p> 
+      <p class="last-note">&copy; Martin C Contreras 2014. All rights reserved.</p>
+
+    </footer>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="public/js/typed.js"></script>
+    <script src="public/js/app.js"></script>
+    <script src="public/js/common.js"></script>
   </body>
 </html>
