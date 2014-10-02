@@ -5,7 +5,8 @@
 
 //home page stlyes
 body
-	font-family: "Arimo", sans-serif !important
+	//font-family: "Arimo", sans-serif !important
+	font-family: 'Muli', sans-serif
 	//background: linear-gradient(180deg, #aaa, #fff)
 	//background: #7E8194 /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -39,25 +40,29 @@ body
 		width: 100%
 		height: 100%
 		display: block
-		//background: linear-gradient(180deg, #191919, #3b3b3b)
-		//background: -moz-linear-gradient(180deg, #191919, #3b3b3b)
-		//background: -webkit-gradient(180deg, #191919, #3b3b3b)
-		//background: -webkit-linear-gradient(180deg, #191919, #3b3b3b)
-		//background: -o-linear-gradient(180deg, #191919, #3b3b3b)
-		//background: -ms-linear-gradient(180deg, #191919, #3b3b3b)
-		background: #fff
+		background: linear-gradient(90deg, #3b3b3b, #191919)
+		background: -moz-linear-gradient(90deg, #3b3b3b, #191919)
+		background: -webkit-linear-gradient(90deg, #3b3b3b, #191919)
+		background: -o-linear-gradient(90deg, #3b3b3b, #191919)
+		background: -ms-linear-gradient(90deg, #3b3b3b, #191919)
+		//background: linear-gradient(to bottom, #3b3b3b 0%, #191919 100%, #191919 100%)
+		//background: -moz-linear-gradient(to bottom, #3b3b3b 0%, #191919 100%, #191919 100%
+		//background: -webkit-linear-gradient(to bottom, #3b3b3b 0%, #191919 100%, #191919 100%)
+		//background: -o-linear-gradient(to bottom, #3b3b3b 0%, #191919 100%, #191919 100%)
+		//background: -ms-linear-gradient(to bottom, #3b3b3b 0%, #191919 100%, #191919 100%)
+		//background: #fff
 		position: relative
 
 	.big-wrap2
 		width: 100%
 		min-height: 100%
 		display: block
-		background: linear-gradient(270deg, #fff, #ccc)
-		background: -moz-linear-gradient(270deg, #fff, #ccc)
-		background: -webkit-gradient(270deg, #fff, #ccc)
-		background: -webkit-linear-gradient(270deg, #fff, #ccc)
-		background: -o-linear-gradient(270deg, #fff, #ccc)
-		background: -ms-linear-gradient(270deg, #fff, #ccc)
+		//background: linear-gradient(to bottom, #191919 0%, #2f2f2f 100%, #2f2f2f 100%)
+		//background: -moz-linear-gradient(to bottom, #191919 0%, #2f2f2f 100%, #2f2f2f 100%)
+		//background: -webkit-linear-gradient(to bottom, #191919 0%, #2f2f2f 100%, #2f2f2f 100%)
+		//background: -o-linear-gradient(to bottom, #191919 0%, #2f2f2f 100%, #2f2f2f 100%)
+		//background: -ms-linear-gradient(to bottom, #191919 0%, #2f2f2f 100%, #2f2f2f 100%)
+		background-color: #fff
 		position: relative
 		//visibility: hidden
 	.big-wrap3
@@ -75,6 +80,7 @@ body
 	.big-wrap4
 		width: 100%
 		min-height: 100%
+		padding-top: 5%
 		display: block
 		background: linear-gradient(270deg, #999, #666)
 		background: -moz-linear-gradient(270deg, #999, #666)
@@ -205,7 +211,60 @@ body
 	font-weight: bold
 	outline: 0
 
-footer
+.large-gi
+	font-size: 75px!important
+	cursor: pointer
+
+.large-gi:hover
+	transition: 0.5s all
+	font-size: 100px!important
+	color: #00bf8f
+	margin-top: -15px
+
+.large-li
+	font-size: 75px!important
+	cursor: pointer
+
+.large-li:hover
+	transition: 0.5s all
+	font-size: 100px!important
+	color:  #007bb6
+	margin-top: -15px
+
+.large-fa
+	font-size: 75px!important
+	cursor: pointer
+
+.large-fa:hover
+	transition: 0.5s all
+	font-size: 100px!important
+	color: #3b5998
+	margin-top: -15px
+
+.large-tw
+	font-size: 75px!important
+	cursor: pointer
+
+.large-tw:hover
+	transition: 0.5s all
+	font-size: 100px!important
+	color: #00aced
+	margin-top: -15px
+
+.add-top
+	padding-top: 10px
+	margin-top: 10px
+	a 
+		color: #000
+
+.nope
+	margin-bottom: 0px
+
+.final
+	position: absolute
+	bottom: 2%
+	left: 25%
+/* footer
 	height: 50px
 	p.last-note 
 		font: 700 14px/1 'Open Sans Condensed', sans-serif
@@ -213,10 +272,10 @@ footer
 		margin-top: 10px
 		margin-bottom: 0px
 	p.last-note:last-child
-		margin-top: 5px
+		margin-top: 5px */
 
 .typed-cursor
-	opacity: 1
+	opacity: 0
 	-webkit-animation: blink 0.7s infinite
 	-moz-animation: blink 0.7s infinite
 	animation: blink 0.7s infinite

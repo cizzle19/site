@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'grid-row'.
-        on line 20 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass, in `grid-row'
-        from line 20 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass
+        on line 21 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass, in `grid-row'
+        from line 21 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass
 
 Backtrace:
-C:/xampp/htdocs/portfolio/app/public/sass/content.sass:20:in `grid-row'
-C:/xampp/htdocs/portfolio/app/public/sass/content.sass:20
+C:/xampp/htdocs/portfolio/app/public/sass/content.sass:21:in `grid-row'
+C:/xampp/htdocs/portfolio/app/public/sass/content.sass:21
 C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
 C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -84,4 +84,4 @@ C:/Ruby200/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 20 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass, in `grid-row'\A         from line 20 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass"; }
+  content: "Syntax error: Undefined mixin 'grid-row'.\A         on line 21 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass, in `grid-row'\A         from line 21 of C:/xampp/htdocs/portfolio/app/public/sass/content.sass"; }
